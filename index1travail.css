@@ -15,10 +15,11 @@
     outline: none;
     border: none;
     text-decoration: none;
-   
+
     transition: .2s linear;
 
 }
+
 html {
     font-size: 100%;
     overflow-x: hidden;
@@ -38,47 +39,51 @@ html::-webkit-scrollbar-thumb {
     background: #fff;
     border-radius: 5rem;
 }
+
 body {
     background-image: url(image/rachel-harvey-JlW6UIFG1es-unsplash.jpg);
 }
 
-.bloccouleur{
-background-color: #5d5d5dd2;
-border: var(--border);
-width: 1700px;
-height: 225px;
-margin-left: 100px;
-margin-top: 150px;
-position: absolute;
-border-radius: 2px;
+.bloccouleur {
+    background-color: #5d5d5dd2;
+    border: var(--border);
+    width: 1700px;
+    height: 225px;
+    margin-left: 100px;
+    margin-top: 150px;
+    position: absolute;
+    border-radius: 2px;
 }
-.image1{
-background-image: url(image/prog\ unreal.png);
-border: var(--border);
-background-size: cover;
-width: 35vw;
-height: 45vh;
-margin-top: 10px;
-margin-left: 300px;
-margin-top: 45px;
-border-radius: 3px;
-float: right;
-position: absolute;
+
+.image1 {
+    background-image: url(image/prog\ unreal.png);
+    border: var(--border);
+    background-size: cover;
+    width: 35vw;
+    height: 45vh;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-top: 45px;
+    border-radius: 3px;
+    float: right;
+    position: absolute;
 
 }
-.image2{
-background-image: url(image/logo-ureal-engine.jpg);
-border: var(--border) solid 5px;
-width: 250px;
-height: 250px;
-background-size: cover;
-float: right;
-margin-top: 325px;
-margin-left: 910px;
-position: absolute;
-border-radius: 3px;
+
+.image2 {
+    background-image: url(image/logo-ureal-engine.jpg);
+    border: var(--border) solid 5px;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    float: right;
+    margin-top: 325px;
+    margin-left: 910px;
+    position: absolute;
+    border-radius: 3px;
 
 }
+
 .image3 {
     background-image: url(image/launcher\ epic\ games.png);
     width: 500px;
@@ -89,20 +94,21 @@ border-radius: 3px;
     margin-top: 60px;
     border-radius: 3px;
 }
+
 .textCIEL {
     position: absolute;
     width: 200px;
     height: 50px;
     color: rgb(255, 255, 255);
-    text-shadow: 
-      0 0 7px #ffe7c9,
-      0 0 10px #000000,
-      0 0 21px #050505,
-      0 0 42px rgb(133, 133, 133),
-      0 0 82px rgb(133, 133, 133),
-      0 0 92px rgb(133, 133, 133),
-      0 0 10px rgb(133, 133, 133),
-      0 0 151px rgb(133, 133, 133);
+    text-shadow:
+        0 0 7px #ffe7c9,
+        0 0 10px #000000,
+        0 0 21px #050505,
+        0 0 42px rgb(133, 133, 133),
+        0 0 82px rgb(133, 133, 133),
+        0 0 92px rgb(133, 133, 133),
+        0 0 10px rgb(133, 133, 133),
+        0 0 151px rgb(133, 133, 133);
     font-family: monospace;
     font-weight: bold;
     font-size: 3em;
@@ -110,38 +116,39 @@ border-radius: 3px;
     margin-left: 300px;
     letter-spacing: 3px;
 }
+
 .material-symbols-outlined {
     color: rgb(255, 255, 255);
-    text-shadow: 
-      0 0 7px #ffe7c9,
-      0 0 10px #000000,
-      0 0 21px #050505,
-      0 0 42px rgb(133, 133, 133),
-      0 0 82px rgb(133, 133, 133),
-      0 0 92px rgb(133, 133, 133),
-      0 0 10px rgb(133, 133, 133),
-      0 0 151px rgb(133, 133, 133);
-      position: absolute;
-      margin-top: -804px;
-      margin-left: 1440px;
-      font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    text-shadow:
+        0 0 7px #ffe7c9,
+        0 0 10px #000000,
+        0 0 21px #050505,
+        0 0 42px rgb(133, 133, 133),
+        0 0 82px rgb(133, 133, 133),
+        0 0 92px rgb(133, 133, 133),
+        0 0 10px rgb(133, 133, 133),
+        0 0 151px rgb(133, 133, 133);
+    position: absolute;
+    margin-top: -804px;
+    margin-left: 1440px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
 }
 
 .textprincipal {
     color: rgb(255, 255, 255);
-    text-shadow: 
-      0 0 7px #ffe7c9,
-      0 0 10px #000000,
-      0 0 21px #050505,
-      0 0 42px rgb(133, 133, 133),
-      0 0 82px rgb(133, 133, 133),
-      0 0 92px rgb(133, 133, 133),
-      0 0 10px rgb(133, 133, 133),
-      0 0 151px rgb(133, 133, 133);
+    text-shadow:
+        0 0 7px #ffe7c9,
+        0 0 10px #000000,
+        0 0 21px #050505,
+        0 0 42px rgb(133, 133, 133),
+        0 0 82px rgb(133, 133, 133),
+        0 0 92px rgb(133, 133, 133),
+        0 0 10px rgb(133, 133, 133),
+        0 0 151px rgb(133, 133, 133);
     font-family: monospace;
     letter-spacing: 2px;
     font-weight: bold;
@@ -150,17 +157,18 @@ border-radius: 3px;
     position: absolute;
     font-size: 1.6em;
 }
-.textetitre{
+
+.textetitre {
     color: rgb(255, 255, 255);
-    text-shadow: 
-      0 0 7px #ffe7c9,
-      0 0 10px #000000,
-      0 0 21px #050505,
-      0 0 42px rgb(133, 133, 133),
-      0 0 82px rgb(133, 133, 133),
-      0 0 92px rgb(133, 133, 133),
-      0 0 10px rgb(133, 133, 133),
-      0 0 151px rgb(133, 133, 133);
+    text-shadow:
+        0 0 7px #ffe7c9,
+        0 0 10px #000000,
+        0 0 21px #050505,
+        0 0 42px rgb(133, 133, 133),
+        0 0 82px rgb(133, 133, 133),
+        0 0 92px rgb(133, 133, 133),
+        0 0 10px rgb(133, 133, 133),
+        0 0 151px rgb(133, 133, 133);
     font-family: monospace;
     font-weight: bold;
     font-size: 1.4em;
@@ -168,8 +176,9 @@ border-radius: 3px;
     margin-top: 500px;
     margin-left: 120px;
     font-style: italic;
-   
+
 }
+
 .pavet1 {
     width: 700px;
     color: white;
@@ -182,9 +191,11 @@ border-radius: 3px;
     margin-top: 550px;
 
 }
+
 .espacepavet1 {
     line-height: 60px;
 }
+
 .pavet2 {
     color: white;
     font-family: "Roboto", serif;
@@ -196,6 +207,7 @@ border-radius: 3px;
     margin-left: 200px;
     margin-top: 610px;
 }
+
 .pavet3 {
     color: white;
     font-family: "Roboto", serif;
@@ -207,17 +219,18 @@ border-radius: 3px;
     margin-left: 200px;
     margin-top: 710px;
 }
-.textetitre2{
+
+.textetitre2 {
     color: rgb(255, 255, 255);
-    text-shadow: 
-      0 0 7px #ffe7c9,
-      0 0 10px #000000,
-      0 0 21px #050505,
-      0 0 42px rgb(133, 133, 133),
-      0 0 82px rgb(133, 133, 133),
-      0 0 92px rgb(133, 133, 133),
-      0 0 10px rgb(133, 133, 133),
-      0 0 151px rgb(133, 133, 133);
+    text-shadow:
+        0 0 7px #ffe7c9,
+        0 0 10px #000000,
+        0 0 21px #050505,
+        0 0 42px rgb(133, 133, 133),
+        0 0 82px rgb(133, 133, 133),
+        0 0 92px rgb(133, 133, 133),
+        0 0 10px rgb(133, 133, 133),
+        0 0 151px rgb(133, 133, 133);
     font-family: monospace;
     font-weight: bold;
     position: absolute;
@@ -226,6 +239,7 @@ border-radius: 3px;
     margin-top: 580px;
     margin-left: 1200px;
 }
+
 .pavet4 {
     font-family: "Roboto", serif;
     font-weight: 100;
@@ -235,6 +249,7 @@ border-radius: 3px;
     margin-left: 1200px;
     margin-top: 623px;
 }
+
 .logoCIEL {
     background-size: cover;
     background-image: url(image/logo\ btsciel.png);
@@ -245,104 +260,105 @@ border-radius: 3px;
     margin-left: 50px;
     border-radius: 5px;
 }
+
 header {
 
-        margin: 0 auto;
-        height: 150px;
-        padding: 120px 0 0 0;
-        text-align: right;
-        font-size: 16px;
-        color: rgb(255, 255, 255);
-    text-shadow: 
-      0 0 7px #ffe7c9,
-      0 0 10px #000000,
-      0 0 21px #050505,
-      0 0 42px rgb(133, 133, 133),
-      0 0 82px rgb(133, 133, 133),
-      0 0 92px rgb(133, 133, 133),
-      0 0 10px rgb(133, 133, 133),
-      0 0 151px rgb(133, 133, 133);
+    margin: 0 auto;
+    height: 150px;
+    padding: 120px 0 0 0;
+    text-align: right;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+        0 0 7px #ffe7c9,
+        0 0 10px #000000,
+        0 0 21px #050505,
+        0 0 42px rgb(133, 133, 133),
+        0 0 82px rgb(133, 133, 133),
+        0 0 92px rgb(133, 133, 133),
+        0 0 10px rgb(133, 133, 133),
+        0 0 151px rgb(133, 133, 133);
     font-family: monospace;
     font-weight: bold;
-        letter-spacing: 2px;
+    letter-spacing: 2px;
 
-        ul li {
-            
-            position: absolute;
-            bottom: 50px;
-            list-style: none;
-            margin: 0 auto;
-            display: inline-block;
-            padding: 0 30px;
-            position: relative;
-            text-decoration: none;
-            text-align: center;
-            color: rgb(255, 255, 255);
-            text-shadow: 
-              0 0 7px #ffe7c9,
-              0 0 10px #000000,
-              0 0 21px #050505,
-              0 0 42px rgb(133, 133, 133),
-              0 0 82px rgb(133, 133, 133),
-              0 0 92px rgb(133, 133, 133),
-              0 0 10px rgb(133, 133, 133),
-              0 0 151px rgb(133, 133, 133);
-            font-family: monospace;
-            font-weight: bold;
-        }
+    ul li {
 
-        li a {
-            color: rgb(255, 255, 255);
-        }
-
-
-        li a:hover {
-            color: #f3f5f8;
-        }
-
-        li:hover {
-            cursor: pointer;
-        }
-
-        ul li ul {
-            visibility: hidden;
-            opacity: 0;
-            top: 20px;
-            position: absolute;
-            padding-left: 0px;
-            left: 0px;
-            display: none;
-
-            border-radius: 10px;
-        }
-
-        ul li:hover>ul,
-        ul li ul:hover {
-            visibility: visible;
-            opacity: 1;
-            display: block;
-            min-width: 250px;
-            text-align: left;
-            background-color: #1c1a1a;
-            padding-top: 30px;
-            box-shadow: 0px 3px 5px -1px #f5ca90 ;
-        }
-
-        ul li ul li {
-            clear: both;
-            width: 100%;
-            text-align: left;
-            margin-bottom: 20px;
-            border-style: none;
-            top: 0px;
-        }
-
-        ul li ul li a:hover {
-
-            padding-left: 10px;
-            transition: all 0.3s ease;
-        }
+        position: absolute;
+        bottom: 50px;
+        list-style: none;
+        margin: 0 auto;
+        display: inline-block;
+        padding: 0 30px;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow:
+            0 0 7px #ffe7c9,
+            0 0 10px #000000,
+            0 0 21px #050505,
+            0 0 42px rgb(133, 133, 133),
+            0 0 82px rgb(133, 133, 133),
+            0 0 92px rgb(133, 133, 133),
+            0 0 10px rgb(133, 133, 133),
+            0 0 151px rgb(133, 133, 133);
+        font-family: monospace;
+        font-weight: bold;
     }
+
+    li a {
+        color: rgb(255, 255, 255);
+    }
+
+
+    li a:hover {
+        color: #f3f5f8;
+    }
+
+    li:hover {
+        cursor: pointer;
+    }
+
+    ul li ul {
+        visibility: hidden;
+        opacity: 0;
+        top: 20px;
+        position: absolute;
+        padding-left: 0px;
+        left: 0px;
+        display: none;
+
+        border-radius: 10px;
+    }
+
+    ul li:hover>ul,
+    ul li ul:hover {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        min-width: 250px;
+        text-align: left;
+        background-color: #1c1a1a;
+        padding-top: 30px;
+        box-shadow: 0px 3px 5px -1px #f5ca90;
+    }
+
+    ul li ul li {
+        clear: both;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+        border-style: none;
+        top: 0px;
+    }
+
+    ul li ul li a:hover {
+
+        padding-left: 10px;
+        transition: all 0.3s ease;
+    }
+}
 
 
 a {
