@@ -22,10 +22,7 @@
 
 body {
     background-image: url(image/kdzqkldmqzdqzkldmlqz.jpg);
-    width: 0;
-    height: 0;
     overflow: hidden;
-
     background-size: cover;
     background-image: cover;
 }
@@ -260,6 +257,9 @@ body {
 }
 
 header {
+
+    
+    
     margin: 0 auto;
     height: 150px;
     font-family: monospace;
@@ -361,6 +361,13 @@ ul li ul li a {
 
 /*Responsive telephone Iphone12PRO */
 @media (max-width: 845px) {
+    .responsivebloc8 {
+        width: 390px;
+        height: 444px;
+        background-color: black;
+        position: absolute;
+        margin-top: 1210px;
+    }
     .responsivebloc4 {
         width: 390px;
         height: 844px;
@@ -377,7 +384,9 @@ ul li ul li a {
         font-family: "Roboto", sans-serif;
         font-weight: 410;
         font-style: normal;
-        margin-top: 600px;
+        margin-top: 100px;
+        position: relative;
+        
     }
     .responsivebloc7 {
         position: absolute;
@@ -386,14 +395,14 @@ ul li ul li a {
         width: 280px;
         height: 844px;
         margin-left: 56px;
-        position: fixed;
+        
     }
 .responsivebloc6 {
     margin-left: 10px;
     margin-top: -1020px;
     font-size: 0.8em;
     width: 390px;
-    height: 844px;
+    height: 244px;
     color: white;
         text-shadow:
             0 0 7px #ffe7c9,
@@ -413,7 +422,7 @@ ul li ul li a {
         margin-left: 56px;
         margin-top: -660px;
         width: 280px;
-        height: 844px;
+        height: 224px;
         color: white;
         text-shadow:
             0 0 7px #ffe7c9,
@@ -441,6 +450,7 @@ ul li ul li a {
         width: 390px;
         height: 844px;
         margin-top: -500px;
+        
     }
 
     .responsivebloc2 {
@@ -464,7 +474,7 @@ ul li ul li a {
         margin-top: -390px;
         width: 450px;
         position: absolute;
-        height: 844px;
+        height: 144px;
         font-size: 1.1em;
     }
 
@@ -489,7 +499,7 @@ ul li ul li a {
         margin-top: -410px;
         width: 450px;
         position: absolute;
-        height: 844px;
+        height: 144px;
         font-size: 1.1em;
 
     }
