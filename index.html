@@ -1,111 +1,44 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-	<title>site</title>
+	<meta charset="utf-8">
+	<title>Responsive Navbar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="index.css">
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-	</style>
-	
-
+	<!-- Font Awesome Link for Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
-	<a
-		href="https://www.onisep.fr/ressources/structures-enseignement/grand-est/marne/lycee-polyvalent-francois-1er/bts-cybersecurite-informatique-et-reseaux-electronique-option-a-informatique-et-reseaux">
-
-		<header role="navigation" class="navigation">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#">Travail &dtrif;</a>
-					<ul class="dropdown">
-						<li><a href="index2.html">Création de jeux vidéos</a></li>
-						<li><a href="pageconstruction.html">Page en construction</a></li>
-
-					</ul>
-
-				</li>
-				<li><a href="index3.html">Source</a></li>
-				<li><a href="index4.html">Contact</a></li>
-			</ul>
-
-
-		</header>
-
-		<div class="textCIEL">CIEL</div>
-		<div class="blocverticalleft"></div>
-		<div class="text1">PROGRAMMATION<br>JEU VIDEO</div>
-		<div class="textpresentation">Présentation entreprises du jeu vidéo, méthodes de développement, les langages
-			utilisés et stratégies de mise en valeur des jeux. </div>
-		<div class="bighorizontalbloc"></div>
-
-		<a href="https://unity.com/fr"></div></a>
-
-
-		<div class="descriptionimgslideshow">Unity et Unreal Engine, deux géants</div>
-
-		<div class="slider">
-			<div class="imagesforslider">
-				<input type="radio" name="slide" id="image1" checked>
-				<input type="radio" name="slide" id="image2">
-
-				<img src="image/prog unreal.png" class="m1" alt="image1">
-				<img src="image/mech-08-harpy-3d-model-blend.jpg" class="m2" alt="image2">
-			</div>
-			<div class="pointslider">
-				<label for="image1"></label>
-				<label for="image2"></label>
-
-			</div>
-		</div>
-
-		<div class="text2">N'hesitez pas à découvrir mon site pour en savoir plus</div>
-
-		<a href="http://lartillotinfo.free.fr/">
-			<div class="logolartillo"></div>
-		</a>
-		<a href="https://aduhalde.fr/index.php">
-			<div class="logoduhalde"></div>
-		</a>
-		<a href="https://monlyceenumerique.fr/">
-			<div class="logomath"></div>
-		</a>
-		<a
-			href="https://www.onisep.fr/ressources/structures-enseignement/grand-est/marne/lycee-polyvalent-francois-1er/bts-cybersecurite-informatique-et-reseaux-electronique-option-a-informatique-et-reseaux">
-			<div class="logociel"></div>
-		</a>
-
-<!--Responsive block-->
-<header>
-	<nav class="menures">
+	<nav>
+		<!-- Checkbox for toggling menu -->
+		<input type="checkbox" id="check">
+		<!-- Menu icon -->
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<!-- Site logo -->
+		<label class="logo">LUKABTSCIEL</label>
+		<!-- Navigation links -->
 		<ul>
-			<li class="lienmenures">
-				<a href="#">Home</a>
-				<a href="#">Création de jeux vidéos</a>
-				<a href="#">Page en construction></a>
+			<li><a class="active" href="#">Home</a></li>
+			<li><a href="#">SOURCE</a></li>
+			<li>
+				<li class="dropdown"><a href="#">TRAVAIL</a>
+			
+			<ul class="dropdown-menu">
+				<li><a href="#">Création de jeux vidéos</a></li>
+				<li><a href="#">Page en construction</a></li>
+			</ul>
 			</li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">MOIMEME</a></li>
 		</ul>
+
 	</nav>
-</header>
-
-
-
-
-		<div class="responsivebloc1">PROGRAMMATION INFORMATIQUE</div>
-		<div class="responsivebloc2">JEU VIDEO</div>
-	    <div class="responsivebloc3"><img src="image/fond black responsive.jpg"></div>
-		<div class="responsivebloc4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unity et Unreal Engine, deux géants </div>
-		<div class="responsivebloc5">Présentation entreprises du jeu vidéo, méthodes de développement, les langages utilisés et stratégies de mise en valeur des jeux.</div>
-		<div class="responsivebloc6">CIEL   PROJET PERSO</div>
-		<div class="responsivebloc7"></div>
-		<div class="responsivebloc8"></div>
-		<i class="bi bi-envelope-arrow-down"></i>
-		<script src="script.js"></script>
-
-
+	<!-- Section for image -->
+	<section></section>
 </body>
 
 </html>
