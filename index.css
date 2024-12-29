@@ -176,5 +176,5 @@ a:hover {
 section {
   background: url("image/mmmmmmmmmmmmmm.jpg") no-repeat;
   background-size: cover;
-  height: calc(100vh - 80px);
+  height: calc(60vh - 80px);
 }
