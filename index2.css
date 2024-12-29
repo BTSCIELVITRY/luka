@@ -1,49 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-:root {
-    --main-color: #4c4942;
-    --black: #13131a;
-    --bg: #1c1a1a;
-    --border: .1rem solid rgb(91, 89, 84);
-}
-
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-
-    transition: .2s linear;
-
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
-
-html {
-    font-size: 100%;
-    overflow-x: hidden;
-    scroll-padding-top: 9rem;
-    scroll-behavior: smooth;
-}
-
-html::-webkit-scrollbar {
-    width: .8rem;
-}
-
-html::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-html::-webkit-scrollbar-thumb {
-    background: #fff;
-    border-radius: 5rem;
-}
-
 body {
-    background-image: url(image/rachel-harvey-JlW6UIFG1es-unsplash.jpg);
+  font-family: "Montserrat", sans-serif;
 }
-
+nav {
+  background: #222222;
+  height: 80px;
+  width: 100%;
+}
 .bloccouleur {
     background-color: #5d5d5dd2;
     border: var(--border);
@@ -94,283 +65,194 @@ body {
     margin-top: 60px;
     border-radius: 3px;
 }
-
-.textCIEL {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    color: rgb(255, 255, 255);
-    text-shadow:
-        0 0 7px #ffe7c9,
-        0 0 10px #000000,
-        0 0 21px #050505,
-        0 0 42px rgb(133, 133, 133),
-        0 0 82px rgb(133, 133, 133),
-        0 0 92px rgb(133, 133, 133),
-        0 0 10px rgb(133, 133, 133),
-        0 0 151px rgb(133, 133, 133);
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 3em;
-    margin-top: -805px;
-    margin-left: 300px;
-    letter-spacing: 3px;
+.bloc1 {
+    background-color: #222222;
+    width: 100%;
+    height: 500px;
+    
 }
-
-.material-symbols-outlined {
-    color: rgb(255, 255, 255);
-    text-shadow:
-        0 0 7px #ffe7c9,
-        0 0 10px #000000,
-        0 0 21px #050505,
-        0 0 42px rgb(133, 133, 133),
-        0 0 82px rgb(133, 133, 133),
-        0 0 92px rgb(133, 133, 133),
-        0 0 10px rgb(133, 133, 133),
-        0 0 151px rgb(133, 133, 133);
-    position: absolute;
-    margin-top: -804px;
-    margin-left: 1440px;
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24
-}
-
-.textprincipal {
-    color: rgb(255, 255, 255);
-    text-shadow:
-        0 0 7px #ffe7c9,
-        0 0 10px #000000,
-        0 0 21px #050505,
-        0 0 42px rgb(133, 133, 133),
-        0 0 82px rgb(133, 133, 133),
-        0 0 92px rgb(133, 133, 133),
-        0 0 10px rgb(133, 133, 133),
-        0 0 151px rgb(133, 133, 133);
-    font-family: monospace;
-    letter-spacing: 2px;
-    font-weight: bold;
-    margin-left: 780px;
-    margin-top: -770px;
-    position: absolute;
-    font-size: 1.6em;
-}
-
 .textetitre {
-    color: rgb(255, 255, 255);
-    text-shadow:
-        0 0 7px #ffe7c9,
-        0 0 10px #000000,
-        0 0 21px #050505,
-        0 0 42px rgb(133, 133, 133),
-        0 0 82px rgb(133, 133, 133),
-        0 0 92px rgb(133, 133, 133),
-        0 0 10px rgb(133, 133, 133),
-        0 0 151px rgb(133, 133, 133);
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 1.4em;
+    margin-top: 250px;
+    font-size: 1em;
+    margin-left: 100px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
     position: absolute;
-    margin-top: 500px;
-    margin-left: 120px;
-    font-style: italic;
-
+    color: white;
+    width: 900px;
 }
-
 .pavet1 {
-    width: 700px;
-    color: white;
-    position: absolute;
+    margin-top: 250px;
     font-size: 1em;
-    font-family: "Roboto", serif;
-    font-weight: 100;
-    font-style: normal;
-    margin-left: 200px;
-    margin-top: 550px;
-
+    margin-left: 100px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    color: white;
+    width: 900px;
 }
-
-.espacepavet1 {
-    line-height: 60px;
-}
-
 .pavet2 {
-    color: white;
-    font-family: "Roboto", serif;
-    font-weight: 100;
-    font-style: normal;
-    position: absolute;
+    margin-top: 250px;
     font-size: 1em;
-    width: 700px;
-    margin-left: 200px;
-    margin-top: 610px;
+    margin-left: 100px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    color: white;
+    width: 900px;
 }
-
 .pavet3 {
-    color: white;
-    font-family: "Roboto", serif;
-    font-weight: 100;
-    font-style: normal;
-    position: absolute;
+    margin-top: 250px;
     font-size: 1em;
-    width: 700px;
-    margin-left: 200px;
-    margin-top: 710px;
-}
-
-.textetitre2 {
-    color: rgb(255, 255, 255);
-    text-shadow:
-        0 0 7px #ffe7c9,
-        0 0 10px #000000,
-        0 0 21px #050505,
-        0 0 42px rgb(133, 133, 133),
-        0 0 82px rgb(133, 133, 133),
-        0 0 92px rgb(133, 133, 133),
-        0 0 10px rgb(133, 133, 133),
-        0 0 151px rgb(133, 133, 133);
-    font-family: monospace;
-    font-weight: bold;
+    margin-left: 100px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
     position: absolute;
-    font-size: 1.4em;
-    font-style: italic;
-    margin-top: 580px;
-    margin-left: 1200px;
-}
-
-.pavet4 {
-    font-family: "Roboto", serif;
-    font-weight: 100;
-    font-style: normal;
     color: white;
-    width: 600px;
-    margin-left: 1200px;
-    margin-top: 623px;
+    width: 900px;
 }
-
-.logoCIEL {
-    background-size: cover;
-    background-image: url(image/logo\ btsciel.png);
+.textetitre2 {
+    margin-top: 250px;
+    font-size: 1em;
+    margin-left: 100px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
     position: absolute;
-    width: 190px;
-    height: 100px;
-    margin-top: -830px;
-    margin-left: 50px;
-    border-radius: 5px;
+    color: white;
+    width: 900px;
 }
-
-header {
-
-    margin: 0 auto;
-    height: 150px;
-    padding: 120px 0 0 0;
-    text-align: right;
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-    text-shadow:
-        0 0 7px #ffe7c9,
-        0 0 10px #000000,
-        0 0 21px #050505,
-        0 0 42px rgb(133, 133, 133),
-        0 0 82px rgb(133, 133, 133),
-        0 0 92px rgb(133, 133, 133),
-        0 0 10px rgb(133, 133, 133),
-        0 0 151px rgb(133, 133, 133);
-    font-family: monospace;
+.pavet4 {
+    margin-top: 250px;
+    font-size: 1em;
+    margin-left: 100px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    color: white;
+    width: 900px;
+}
+label.logo {
+    color: white;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 100px;
     font-weight: bold;
-    letter-spacing: 2px;
-
-    ul li {
-
-        position: absolute;
-        bottom: 50px;
-        list-style: none;
-        margin: 0 auto;
-        display: inline-block;
-        padding: 0 30px;
-        position: relative;
-        text-decoration: none;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        text-shadow:
-            0 0 7px #ffe7c9,
-            0 0 10px #000000,
-            0 0 21px #050505,
-            0 0 42px rgb(133, 133, 133),
-            0 0 82px rgb(133, 133, 133),
-            0 0 92px rgb(133, 133, 133),
-            0 0 10px rgb(133, 133, 133),
-            0 0 151px rgb(133, 133, 133);
-        font-family: monospace;
-        font-weight: bold;
-    }
-
-    li a {
-        color: rgb(255, 255, 255);
-    }
-
-
-    li a:hover {
-        color: #f3f5f8;
-    }
-
-    li:hover {
-        cursor: pointer;
-    }
-
-    ul li ul {
-        visibility: hidden;
-        opacity: 0;
-        top: 20px;
-        position: absolute;
-        padding-left: 0px;
-        left: 0px;
-        display: none;
-
-        border-radius: 10px;
-    }
-
-    ul li:hover>ul,
-    ul li ul:hover {
-        visibility: visible;
-        opacity: 1;
-        display: block;
-        min-width: 250px;
-        text-align: left;
-        background-color: #1c1a1a;
-        padding-top: 30px;
-        box-shadow: 0px 3px 5px -1px #f5ca90;
-    }
-
-    ul li ul li {
-        clear: both;
-        width: 100%;
-        text-align: left;
-        margin-bottom: 20px;
-        border-style: none;
-        top: 0px;
-    }
-
-    ul li ul li a:hover {
-
-        padding-left: 10px;
-        transition: all 0.3s ease;
-    }
-}
-
-
-a {
-
+  }
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a {
     text-decoration: none;
-
-    &:hover {
-        color: #ffffff;
+    font-family: "Montserrat", sans-serif;;
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,
+  a:hover {
+    background: #222222;
+    transition: .5s;
+  }
+  .checkbtn {
+    font-size: 22px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+  .dropdown-menu {
+      display: none;/* Masquer le menu par défaut */
+      position: absolute;
+      background-color: #222222;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
     }
-
-}
-
-ul li ul li a {
-    transition: all 0.5s ease;
-}
+    .dropdown-menu li a {
+      background-color: #222222;
+      color: rgb(255, 255, 255);
+      padding: 14px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      background-color: #222222;
+      width: 300px;
+    }
+  @media (max-width: 1050px) {
+    label.logo {
+      padding-left: 30px;
+    }
+    nav ul li a {
+      font-size: 16px;
+    }
+  }
+  
+  /* Responsive media query code for small screen */
+  @media (max-width: 890px) {
+    .bloc1 {
+      height: 100%;
+    }
+    .img1 {
+      background-image: url(image/taille\ bench\ model\ redimenssioner.jpg);
+      width: 100%;
+      margin-left: 0;
+      background: cover;
+      background-size: cover;
+      
+    }
+    .checkbtn {
+      display: block;
+    }
+    label.logo {
+      font-size: 22px;
+    }
+    ul {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #444444;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li {
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a {
+      font-size: 20px;
+    }
+    a:hover,
+    a.active {
+      background: none;
+      color: #8c4aca;
+    }
+    #check:checked~ul {
+      left: 0;
+    }
+  }
+  section {
+    background: url("image/rachel-harvey-JlW6UIFG1es-unsplash.jpg") no-repeat;
+    background-size: cover;
+    height: calc(75vh - 80px);
+  }
+  
+  
