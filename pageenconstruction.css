@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  background-image: url(image/foret33333\ enneigée.jpg);
+  background-color: black;
 }
-
 h1 {
-  font-size: 4em;
+  font-size: 2em;
   color: white;
   font-family: monospace;
   font-weight: bold;
   text-align: center;
   margin-top: 400px;
   font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 890px) {
+  h1 {
+    margin-top: 300px;
+    text-align: center;
+  }
 }
