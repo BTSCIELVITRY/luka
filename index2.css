@@ -18,7 +18,21 @@ nav {
     height: 80px;
     width: 100%;
 }
-
+.PAGEEN {
+    display: none;
+}
+.CREAT {
+    display: none;
+}
+.image1res {
+    display: none;
+ }
+ .image2res {
+     display: none;
+  }
+  .image3res {
+     display: none;
+  }
 .bloccouleur {
     background-color: #5d5d5dd2;
     width: 1700px;
@@ -59,6 +73,7 @@ nav {
     position: absolute;
 }
 .bloc1 {
+    margin-top: -350px;
     background-color: #222222;
     width: 100%;
     height: 500px;
@@ -221,17 +236,67 @@ a:hover {
 
 /* Responsive media query code for small screen */
 @media (max-width: 890px) {
-    .image1 {
-    display: none;
+    .PAGEEN {
+        text-align: center;
+        display: flex;
+      }
+      .CREAT {
+        text-align: center;
+        display: flex;
+      }
+    .TRAVAIL {
+        display: none;
     }
+    .image1res {
+        border-radius: 3px;
+        float: left;
+        margin-top: 20px;
+        display: flex;
+        margin-left: 44px;
+        background-size: 400%;
+        width: 300px;
+        height: 225px;
+        background-image: url(image/prog\ unreal.png);
+     }
+     .image2res {
+        border-radius: 3px;
+        float: left;
+        margin-top: 20px;
+        display: flex;
+        margin-left: 44px;
+        background-size: 101%;
+        width: 300px;
+        height: 225px;
+        background-image: url(image/logo-ureal-engine.jpg);
+      }
+      .image3res {
+        border-radius: 3px;
+        float: left;
+        margin-top: 20px;
+        display: flex;
+        margin-left: 44px;
+        background-size: cover;
+        width: 300px;
+        height: 245px;
+        background-image: url(image/launcher\ epic\ games.png);
+      }
+    .image1 {
+       display: none;
+    }
+    .image2 {
+        display: none;
+     }
+     .image3 {
+        display: none;
+     }
     .bloc1 {
+        margin-top: 0px;
         background-color: #222222;
         width: 100%;
-        height: 1300px;
+        height: 1070px;
         position: absolute;
         
     }
-    
     .textetitre {
         font-weight: bold;
     margin-top: 40px;
@@ -241,7 +306,7 @@ a:hover {
     font-family: "Montserrat", sans-serif;
     position: absolute;
     color: white;
-    width: 390px;
+    width: 350px;
     }
     
     .pavet1 {
@@ -285,18 +350,18 @@ a:hover {
         font-family: "Montserrat", sans-serif;
         position: absolute;
         color: white;
-        width: 390px;
+        width: 350px;
     }
     
     .pavet4 {
-        margin-top: 60px;
+        margin-top: 770px;
         font-size: 1em;
-        margin-left: 1100px;
+        margin-left: 20px;
         line-height: 30px;
         font-family: "Montserrat", sans-serif;
         
         color: white;
-        width: 700px;
+        width: 350px;
     }
     .bloccouleur {
         display: none;
@@ -312,7 +377,7 @@ a:hover {
     ul {
         position: absolute;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background: #444444;
         top: 80px;
         left: -100%;
@@ -339,10 +404,12 @@ a:hover {
     #check:checked~ul {
         left: 0;
     }
+    
 }
 
 .section1 {
     background: url("image/rachel-harvey-JlW6UIFG1es-unsplash.jpg") no-repeat;
     background-size: cover;
-    height: calc(65vh - 60px);
+    height: calc(100vh - 60px);
+    
 }
