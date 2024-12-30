@@ -19,7 +19,7 @@ nav {
   background-color: #222222;
   width: 100%;
   height: 500px;
-  border: black 2px solid;
+  
 }
 .img1 {
   background-size: cover;
@@ -45,6 +45,46 @@ nav {
 }
 
 .txt1 {
+  margin-top: 250px;
+  font-size: 1em;
+  margin-left: 100px;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  color: white;
+ 
+  width: 900px;
+}
+.bloc2 {
+  background-color: #222222;
+  width: 100%;
+  height: 500px;
+  
+}
+.img2 {
+  background-size: cover;
+  width: 500px;
+  height: 80%;
+  border-radius: 3px;
+  background-image: url(image/prog\ image.webp);
+  margin-top: 45px;
+  margin-left: 1300px;
+  position: relative;
+}
+.title2 {
+  font-weight: bold;
+  margin-top: 150px;
+  font-size: 2em;
+  margin-left: 100px;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  color: white;
+  
+  width: 900px;
+}
+
+.txt2 {
   margin-top: 250px;
   font-size: 1em;
   margin-left: 100px;
@@ -129,16 +169,90 @@ a:hover {
 
 /* Responsive media query code for small screen */
 @media (max-width: 890px) {
+  .TRAVAIL {
+    display: none;
+  }
   .bloc1 {
-    height: 100%;
+    background-color: #222222;
+    width: 100%;
+    height: 650px;
+    
   }
   .img1 {
-    background-image: url(image/taille\ bench\ model\ redimenssioner.jpg);
-    width: 100%;
-    margin-left: 0;
-    background: cover;
     background-size: cover;
+    width: 80%;
+    height: 30%;
+    border-radius: 3px;
+    background-image: url(image/mech-08-harpy-3d-model-blend.jpg);
+    margin-top: 360px;
+    margin-left: 40px;
+    position: absolute;
     
+  }
+  .title1 {
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 1.5em;
+    margin-left: 20px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    color: white;
+    
+    width: 350px;
+  }
+  
+  .txt1 {
+    margin-top: 110px;
+    font-size: 1em;
+    margin-left: 20px;
+    line-height: 25px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    color: white;
+   
+    width: 340px;
+  }
+  .bloc2 {
+    background-color: #222222;
+    width: 100%;
+    height: 800px;
+    
+  }
+  .img2 {
+    background-size: cover;
+    width: 80%;
+    height: 30%;
+    border-radius: 3px;
+    background-image: url(image/prog\ image.webp);
+    margin-top: 480px;
+    margin-left: 40px;
+    position: absolute;
+    
+  }
+  .title2 {
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 1.5em;
+    margin-left: 20px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    color: white;
+    
+    width: 350px;
+  }
+  
+  .txt2 {
+    margin-top: 110px;
+    font-size: 1em;
+    margin-left: 20px;
+    line-height: 25px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    color: white;
+   
+    width: 340px;
   }
   .checkbtn {
     display: block;
@@ -175,6 +289,11 @@ a:hover {
 }
 section {
   background: url("image/mmmmmmmmmmmmmm.jpg") no-repeat;
+  background-size: cover;
+  height: calc(60vh - 80px);
+}
+.section1 {
+  background: url("image/starfield_by_paulinemoss_d71vqrb-pre.jpg") no-repeat;
   background-size: cover;
   height: calc(60vh - 80px);
 }
