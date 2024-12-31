@@ -1,4 +1,3 @@
-/* Google Fonts Link */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -18,21 +17,27 @@ nav {
     height: 80px;
     width: 100%;
 }
+
 .PAGEEN {
     display: none;
 }
+
 .CREAT {
     display: none;
 }
+
 .image1res {
     display: none;
- }
- .image2res {
-     display: none;
-  }
-  .image3res {
-     display: none;
-  }
+}
+
+.image2res {
+    display: none;
+}
+
+.image3res {
+    display: none;
+}
+
 .bloccouleur {
     background-color: #5d5d5dd2;
     width: 1700px;
@@ -42,6 +47,7 @@ nav {
     border-radius: 2px;
     position: absolute;
 }
+
 .image1 {
     border-radius: 3px;
     margin-top: 50px;
@@ -52,6 +58,7 @@ nav {
     background-size: cover;
     position: absolute;
 }
+
 .image2 {
     border-radius: 3px;
     margin-top: 50px;
@@ -62,6 +69,7 @@ nav {
     background-size: cover;
     position: absolute;
 }
+
 .image3 {
     border-radius: 3px;
     margin-top: 100px;
@@ -72,13 +80,14 @@ nav {
     background-size: cover;
     position: absolute;
 }
+
 .bloc1 {
     margin-top: -350px;
     background-color: #222222;
     width: 100%;
     height: 500px;
     position: absolute;
-    
+
 }
 
 .textetitre {
@@ -142,7 +151,7 @@ nav {
     margin-left: 1100px;
     line-height: 30px;
     font-family: "Montserrat", sans-serif;
-    
+
     color: white;
     width: 700px;
 }
@@ -175,9 +184,11 @@ nav ul li a {
     border-radius: 3px;
     text-transform: uppercase;
 }
+
 .dropdown-menu a:hover {
     color: #8c4aca;
 }
+
 a.active,
 a:hover {
     color: #8c4aca;
@@ -201,7 +212,7 @@ a:hover {
 
 .dropdown-menu {
     display: none;
-    /* Masquer le menu par défaut */
+
     position: absolute;
     background-color: #222222;
     min-width: 160px;
@@ -234,19 +245,22 @@ a:hover {
     }
 }
 
-/* Responsive media query code for small screen */
+
 @media (max-width: 890px) {
     .PAGEEN {
         text-align: center;
         display: flex;
-      }
-      .CREAT {
+    }
+
+    .CREAT {
         text-align: center;
         display: flex;
-      }
+    }
+
     .TRAVAIL {
         display: none;
     }
+
     .image1res {
         border-radius: 3px;
         float: left;
@@ -257,8 +271,9 @@ a:hover {
         width: 300px;
         height: 225px;
         background-image: url(image/prog\ unreal.png);
-     }
-     .image2res {
+    }
+
+    .image2res {
         border-radius: 3px;
         float: left;
         margin-top: 20px;
@@ -268,8 +283,9 @@ a:hover {
         width: 300px;
         height: 225px;
         background-image: url(image/logo-ureal-engine.jpg);
-      }
-      .image3res {
+    }
+
+    .image3res {
         border-radius: 3px;
         float: left;
         margin-top: 20px;
@@ -279,36 +295,41 @@ a:hover {
         width: 300px;
         height: 245px;
         background-image: url(image/launcher\ epic\ games.png);
-      }
-    .image1 {
-       display: none;
     }
+
+    .image1 {
+        display: none;
+    }
+
     .image2 {
         display: none;
-     }
-     .image3 {
+    }
+
+    .image3 {
         display: none;
-     }
+    }
+
     .bloc1 {
         margin-top: 0px;
         background-color: #222222;
         width: 100%;
         height: 1070px;
         position: absolute;
-        
+
     }
+
     .textetitre {
         font-weight: bold;
-    margin-top: 40px;
-    font-size: 1.3em;
-    margin-left: 20px;
-    line-height: 20px;
-    font-family: "Montserrat", sans-serif;
-    position: absolute;
-    color: white;
-    width: 350px;
+        margin-top: 40px;
+        font-size: 1.3em;
+        margin-left: 20px;
+        line-height: 20px;
+        font-family: "Montserrat", sans-serif;
+        position: absolute;
+        color: white;
+        width: 350px;
     }
-    
+
     .pavet1 {
         margin-top: 110px;
         font-size: 1em;
@@ -319,7 +340,7 @@ a:hover {
         color: white;
         width: 350px;
     }
-    
+
     .pavet2 {
         margin-top: 230px;
         font-size: 1em;
@@ -330,7 +351,7 @@ a:hover {
         color: white;
         width: 350px;
     }
-    
+
     .pavet3 {
         margin-top: 450px;
         font-size: 1em;
@@ -340,7 +361,7 @@ a:hover {
         color: white;
         width: 350px;
     }
-    
+
     .textetitre2 {
         font-weight: bold;
         margin-top: 700px;
@@ -352,20 +373,22 @@ a:hover {
         color: white;
         width: 350px;
     }
-    
+
     .pavet4 {
         margin-top: 770px;
         font-size: 1em;
         margin-left: 20px;
         line-height: 30px;
         font-family: "Montserrat", sans-serif;
-        
+
         color: white;
         width: 350px;
     }
+
     .bloccouleur {
         display: none;
     }
+
     .checkbtn {
         display: block;
     }
@@ -404,12 +427,12 @@ a:hover {
     #check:checked~ul {
         left: 0;
     }
-    
+
 }
 
 .section1 {
     background: url("image/rachel-harvey-JlW6UIFG1es-unsplash.jpg") no-repeat;
     background-size: cover;
     height: calc(100vh - 60px);
-    
+
 }
