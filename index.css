@@ -26,7 +26,11 @@ nav {
   height: 500px;
   
 }
-.img1 {
+#img1:hover {
+  transform: scale(1.2);
+}
+#img1 {
+  transition: transform ease-in-out 0.3s;
   background-size: cover;
   width: 500px;
   height: 400px;
@@ -71,7 +75,6 @@ nav {
   width: 500px;
   height: 400px;
   border-radius: 3px;
-  background-image: url(image/prog\ image.webp);
   margin-top: 45px;
   margin-left: 1300px;
   position: absolute;
@@ -196,7 +199,10 @@ a:hover {
     height: 650px;
     
   }
-  .img1 {
+  #img1:hover  { 
+    transform: scale(1.2); }
+  #img1 {
+    transition: transform ease-in-out 0.3s;
     background-size: cover;
     width: 80%;
     height: 30%;
@@ -206,6 +212,11 @@ a:hover {
     margin-left: 40px;
     position: absolute;
     
+  }
+  .img1 :hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5);
   }
   .title1 {
     font-weight: bold;
@@ -242,7 +253,6 @@ a:hover {
     width: 80%;
     height: 30%;
     border-radius: 3px;
-    background-image: url(image/prog\ image.webp);
     margin-top: 480px;
     margin-left: 40px;
     position: absolute;
