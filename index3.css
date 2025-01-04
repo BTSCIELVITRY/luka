@@ -340,9 +340,11 @@ a:hover {
     max-width: 400px;
   }
   .PAGEEN {
+    margin-left: 20px;
     display: flex;
   }
   .CREAT {
+    margin-left: 70px;
     display: flex;
   }
   .checkbtn {

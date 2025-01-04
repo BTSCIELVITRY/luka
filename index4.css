@@ -1,67 +1,137 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-  padding: 0;
+
   margin: 0;
   text-decoration: none;
-  list-style: none;
+
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
 }
+
 nav {
   background: #222222;
   height: 80px;
   width: 100%;
 }
-.photo {
-  background-color: #6495ED; /* Bleu clair */
-  color: white;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  width: 160px;
-  height: 120px;
- 
 
-}
-.titre {
-  background-color: #007bff;
+table {
+  float: left;
+  margin-top: 110px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 100%;
   color: white;
-  padding: 10px;
-  margin-bottom: 10px;
 }
 
-.skill-badge {
-  margin-right: 5px;
-}
-.progress {
-  float: right;
-text-align: center;
-}
-.btn-fixed-size {
+th,
+td {
+  background-color: #8c4aca;
+  border: 1px solid white;
+  padding: 8px;
   color: white;
-  width: 120px;
-  height: 40px;
-  display: flex;
-  justify-content: flex-end;
-  
+  text-align: left;
 }
-.mb-3 a {
-  text-decoration: none;
-  color: inherit; 
+
+th {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
 }
+
+.blocsepa {
+
+  width: 100%;
+  background-color: #222222;
+  height: 400px;
+}
+
+.bloc1 {
+  border-radius: 10px;
+  margin-left: 180px;
+  float: left;
+  margin-top: 150px;
+  width: 80%;
+  background-color: #222222;
+  height: 600px;
+}
+
+.imagebloc11 {
+  border-radius: 3px;
+  margin-top: -580px;
+  margin-left: 1050px;
+  float: left;
+  background-image: url(image/UNITY\ BLOC1.png);
+  width: 600px;
+  height: 250px;
+  background-size: 250%;
+}
+
+.imagebloc12 {
+  background-image: url(image/unreal-engine\ IMAGE\ BLOC1.jpg);
+  width: 600px;
+  border-radius: 3px;
+  margin-top: -270px;
+  margin-left: 1050px;
+  float: left;
+  height: 250px;
+  background-size: 180%;
+}
+
+.title1 {
+  margin-top: 20px;
+  font-size: 1.3em;
+  margin-left: 70px;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+
+  color: white;
+  width: 900px;
+  font-weight: bold;
+}
+
+.text1 {
+  margin-top: 10px;
+  margin-left: 70px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 710px;
+}
+
+.title2 {
+  margin-top: 20px;
+  font-size: 1.3em;
+  margin-left: 70px;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  width: 900px;
+  font-weight: bold;
+}
+
+.text2 {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 55px;
+  color: white;
+  width: 710px;
+}
+
+.text3 {
+  color: white;
+}
+
 .PAGEEN {
   display: none;
 }
+
 .CREAT {
   display: none;
 }
+
 label.logo {
   color: white;
   font-size: 25px;
@@ -140,44 +210,116 @@ a:hover {
   background-color: #222222;
   width: 300px;
 }
-  @media (max-width: 890px) {
-    .checkbtn {
-      display: block;
+
+@media (max-width: 890px) {
+  .section1 {
+    margin-top: 300px;
+  }
+  .title1 {
+    width: 320px;
+    line-height: 20px;
+    margin-left: 20px;
+    font-size: 1.1em;
+  }
+
+  .text1 {
+    font-size: 0.7em;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .title2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.1em;
+    width: 320px;
+    line-height: 20px;
+  }
+
+  .text2 {
+  margin-left: 0;
+  width: 320px;
+    font-size: 0.7em;
+  }
+  .blocsepa {
+    background-color: #222222;
+    height: 920px;
+    width: 100%;
+  }
+  .table1 tr, .table1 td, .table1 th {
+   width: 390px;
+   font-size: 0.7em;
+  }
+.table1 {
+  margin-top: 600px;
+font-size: 1em;
+width: 390px;
+}
+.imagebloc11 {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 800px;
+  height: 30%;
+width: 310px;
+}
+.imagebloc12 {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 1070px;
+  height: 30%;
+width: 310px;
+}
+  .bloc1 {
+    height: 622px;
+    margin-top: 70px;
+    float: left;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .checkbtn {
+    display: block;
   }
 
   label.logo {
-      font-size: 22px;
+    font-size: 22px;
   }
-
   ul {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: #444444;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
+    position: absolute;
+    width: 100%;
+    height: 540px;
+    background: #444444;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
   }
 
   nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
   }
 
   nav ul li a {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   a:hover,
   a.active {
-      background: none;
-      color: #8c4aca;
+    background: none;
+    color: #8c4aca;
   }
 
   #check:checked~ul {
-      left: 0;
+    left: 0;
   }
 
+}
+
+.section1 {
+  background-image: url(image/111111111111111111.jpg);
+  background-size: cover;
+  height: calc(100vh - 80px);
 }
