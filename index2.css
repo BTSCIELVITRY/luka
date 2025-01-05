@@ -17,11 +17,36 @@ nav {
     height: 80px;
     width: 100%;
 }
-
+#epicg {
+    text-decoration: none;
+    color: #8c4aca;
+}
+#epicg:hover {
+    color: white;
+}
+#unreal {
+    text-decoration: none;
+    color: #8c4aca;
+}
+#unreal:hover {
+    color: white;
+}
+#unity {
+    text-decoration: none;
+    color: #8c4aca;
+}
+#unity:hover {
+    color: white;
+}
 .PAGEEN {
     display: none;
 }
-
+a:hover {
+    color: #8c4aca;
+}
+#purpleinfo {
+    color: #8c4aca;
+}
 .CREAT {
     display: none;
 }
@@ -58,7 +83,12 @@ nav {
     background-size: cover;
     position: absolute;
 }
-
+#unreall {
+    display: none;
+}
+.ip {
+    color: #8c4aca;
+}
 .image2 {
     border-radius: 3px;
     margin-top: 50px;
@@ -188,14 +218,6 @@ nav ul li a {
 .dropdown-menu a:hover {
     color: #8c4aca;
 }
-
-a.active,
-a:hover {
-    color: #8c4aca;
-    background: #222222;
-    transition: .5s;
-}
-
 .checkbtn {
     font-size: 22px;
     color: white;
@@ -254,14 +276,21 @@ a:hover {
 
     .CREAT {
         margin-left: 70px;
-        
+        color: #8c4aca;
         display: flex;
     }
-
+    #unreall {
+        display: none;
+      }
+    #epicgg {
+        display: none;
+    }
     .TRAVAIL {
         display: none;
     }
-
+    #unrealres {
+        display: none;
+    }
     .image1res {
         border-radius: 3px;
         float: left;
@@ -273,7 +302,6 @@ a:hover {
         height: 225px;
         background-image: url(image/prog\ unreal.png);
     }
-
     .image2res {
         border-radius: 3px;
         float: left;
@@ -418,13 +446,6 @@ a:hover {
     nav ul li a {
         font-size: 20px;
     }
-
-    a:hover,
-    a.active {
-        background: none;
-        color: #8c4aca;
-    }
-
     #check:checked~ul {
         left: 0;
     }
